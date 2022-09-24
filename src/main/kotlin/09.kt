@@ -25,6 +25,6 @@ fun main() {
     peoole.add(People(5, "Sari", 19))
     peoole.add(People(6, "Riri", 21))
 
-    var filterPeople = peoole.filter { it.age <= 21}
+    var filterPeople = peoole.filter { it.age < 21}
     println(filterPeople)
 }
